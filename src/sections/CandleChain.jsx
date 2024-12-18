@@ -5,7 +5,7 @@ import angleRight from "../assets/angle-right.svg";
 
 const CandleChain = () => {
   return (
-    <div className="bg-light pb-20">
+    <div className="bg-light pb-20 overflow-clip">
       <div className="section-width">
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 pb-6">
           <img className="size-64" src={img_cone} alt="" />

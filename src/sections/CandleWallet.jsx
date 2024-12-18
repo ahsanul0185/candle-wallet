@@ -14,28 +14,28 @@ const CandleWallet = () => {
       <img className="w-full" src={topCurve} alt="" />
 
       <div className="section-width py-16">
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-2 justify-between ">
           <div>
-            <h2 className="text-4xl text-white font-semibold">
+            <h2 className="text-3xl md:text-4xl text-white font-semibold">
               Let's get started with
             </h2>
             <div className="flex items-center gap-7">
-              <h1 className="text-5xl font-bold text-white">Candle Wallet</h1>{" "}
+              <h1 className="text-4xl sm:text-5xl font-bold text-white">Candle Wallet</h1>{" "}
               <img className="w-20 mt-1" src={zigzagSmall} alt="" />
             </div>
           </div>
 
           <div>
-            <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary rounded-md text-2xl font-bold text-white cursor-pointer">
+            <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary rounded-md text-xl md:text-2xl font-bold text-white cursor-pointer">
               Access Wallet Here
             </button>
-            <p className="text-base md:text-xl font-thin text-white mt-3 text-center">
+            <p className="text-base md:text-xl font-thin text-white mt-3 md:text-center">
               Connect your preffered wallet here
             </p>
           </div>
         </div>
 
-        <p className="text-2xl w-1/2 mt-5 text-white">
+        <p className="text-2xl md:w-1/2 mt-5 text-white">
           The safe, fast, and secure way to send and receive crypto assets on
           Candle Chain Network.
         </p>
