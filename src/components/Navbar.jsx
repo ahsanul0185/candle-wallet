@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 w-full bg-primary py-3 font-lato z-[999]">
       <div className="section-width flex justify-between items-center">
         <div className="flex items-center gap-6 lg:gap-12">
-          <img className="size-14 md:size-20" src={logo} alt="" />
+          <img className="size-10 md:size-14" src={logo} alt="" />
 
           <ul className="hidden md:flex text-white gap-3 lg:gap-5 text-base lg:text-lg">
             <li className="cursor-pointer">Solution</li>
@@ -22,7 +22,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex text-white text-base lg:text-lg items-center gap-5 lg:gap-10">
           <p className="cursor-pointer">Access Wallet</p>
-          <button className="font-bold px-3 lg:px-5 py-3 lg:py-4 bg-primaryDeep rounded-md">
+          <button className="font-bold px-3 lg:px-5 py-2 lg:py-3 bg-primaryDeep rounded-md duration-200 hover:bg-primaryDeep/70">
             Connect Wallet
           </button>
         </div>
