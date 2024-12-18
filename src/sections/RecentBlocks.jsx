@@ -15,7 +15,7 @@ const RecentBlocks = () => {
         Recent <span className="text-primary">Blocks</span>
       </h2>
 
-      <div className="section-width pt-20 flex flex-wrap justify-center gap-10">
+      <div className="section-width pt-10 md:pt-20 flex flex-wrap justify-center gap-10">
         {/* Card */}
         <BlockCard />
         <BlockCard />

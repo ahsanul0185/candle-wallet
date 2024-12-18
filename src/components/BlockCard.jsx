@@ -29,13 +29,13 @@ const BlockCard = () => {
             <p className="font-medium text-xl">Transactions: 0</p>
           </div>
 
-          <hr className="border-t-2 border-[#D9D9D9] my-5" />
+          <hr className="border-t-2 border-[#D9D9D9] my-4" />
 
           <div className="flex gap-6 items-center">
             <img src={icon_clock} alt="" />
             <p className="font-medium text-xl">3 Hours Ago</p>
           </div>
-          <hr className="border-t-2 border-[#D9D9D9] my-5" />
+          <hr className="border-t-2 border-[#D9D9D9] my-4" />
           <div className="flex gap-6 items-start">
             <img src={icon_sun} alt="" />
             <p className="font-medium text-xl">
@@ -43,7 +43,7 @@ const BlockCard = () => {
                     <br /> 0X00000000000000 <br />000000000000000
             </p>
           </div>
-          <hr className="border-t-2 border-[#D9D9D9] my-5" />
+          <hr className="border-t-2 border-[#D9D9D9] my-4" />
           <div className="flex gap-6 items-center">
             <img src={icon_pump} alt="" />
             <p className="font-medium text-xl">
