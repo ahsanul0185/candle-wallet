@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import WhatIfYouHadItAll from './sections/WhatIfYouHadItAll'
 import CandleChain from './sections/CandleChain'
 import CandleWallet from './sections/CandleWallet'
+import RecentBlocks from './sections/RecentBlocks'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Hero />
       <WhatIfYouHadItAll />
       <CandleChain />
-      <CandleWallet/>
+      <CandleWallet />
+      <RecentBlocks />
     </div>
   )
 }

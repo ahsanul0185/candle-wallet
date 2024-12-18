@@ -13,10 +13,10 @@ import icon_staking from "../assets/candle-wallet-section/staking.svg";
 
 const CandleWallet = () => {
     return (
-      <>
+      <div className="bg-light">
     <div className="relative bg-primary z-0 overflow-x-clip">
           <img className="w-full" src={topCurve} alt="" />
-          <img className="absolute top-80 -right-10 rotate-[55deg] w-80 -z-10 [mask-image:linear-gradient(to_top,_black,_transparent)]" src={ pentagon} alt="" />
+          <img className="absolute top-96 md:top-80 -right-10 rotate-[55deg] w-60 md:w-80 -z-10 [mask-image:linear-gradient(to_top,_black,_transparent)]" src={ pentagon} alt="" />
           <img className="absolute left-0 -bottom-12 lg:-bottom-32 z-10 w-52 lg:w-80" src={shape } alt="" />
           
       <div className="section-width py-16">
@@ -25,7 +25,7 @@ const CandleWallet = () => {
             <h2 className="text-3xl md:text-4xl text-white font-semibold">
               Let's get started with
             </h2>
-            <div className="flex items-center gap-7">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:gap-7">
               <h1 className="text-4xl sm:text-5xl font-bold text-white">Candle Wallet</h1>{" "}
               <img className="w-20 mt-1" src={zigzagSmall} alt="" />
             </div>
@@ -72,7 +72,7 @@ const CandleWallet = () => {
           </div>
     </div>
           <img className="w-full -z-20" src={bottomCurve} alt="" />
-    </>
+    </div>
   );
 };
 
