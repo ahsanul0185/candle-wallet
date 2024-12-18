@@ -1,7 +1,10 @@
 import React from "react";
 import CandleWalletCard from "../components/CandleWalletCard";
 import topCurve from "../assets/candle-wallet-top-curve.svg";
+import bottomCurve from "../assets/candle-wallet-bottom-curve.svg";
 import zigzagSmall from "../assets/zigzag-yellow-small.svg";
+import pentagon from '../assets/pentagon.svg'
+import shape from '../assets/shape-bridge.svg'
 
 import icon_dashboard from "../assets/candle-wallet-section/dashboard.svg";
 import icon_wallet from "../assets/candle-wallet-section/wallet.svg";
@@ -9,10 +12,13 @@ import icon_bridge from "../assets/candle-wallet-section/bridge.svg";
 import icon_staking from "../assets/candle-wallet-section/staking.svg";
 
 const CandleWallet = () => {
-  return (
-    <div className=" bg-primary">
-      <img className="w-full" src={topCurve} alt="" />
-
+    return (
+      <>
+    <div className="relative bg-primary z-0 overflow-x-clip">
+          <img className="w-full" src={topCurve} alt="" />
+          <img className="absolute top-80 -right-10 rotate-[55deg] w-80 -z-10 [mask-image:linear-gradient(to_top,_black,_transparent)]" src={ pentagon} alt="" />
+          <img className="absolute left-0 -bottom-12 lg:-bottom-32 z-10 w-52 lg:w-80" src={shape } alt="" />
+          
       <div className="section-width py-16">
         <div className="flex flex-col md:flex-row gap-10 md:gap-2 justify-between ">
           <div>
@@ -63,8 +69,10 @@ const CandleWallet = () => {
             description="Stake your crpto assests to earn rewards"
           />
         </div>
-      </div>
+          </div>
     </div>
+          <img className="w-full -z-20" src={bottomCurve} alt="" />
+    </>
   );
 };
 

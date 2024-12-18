@@ -6,7 +6,7 @@
 
 @layer components {
     .section-width {
-      @apply max-w-[1380px] mx-auto px-5
+      @apply max-w-[1380px] mx-auto px-10
     }
     
   }
