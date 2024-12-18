@@ -3,7 +3,7 @@ import bridge from '../assets/bridge.png'
 
 const WhatNextForCandle = () => {
   return (
-      <div className='bg-light'>
+      <div className='bg-light pb-10'>
           <div className='section-width flex flex-col items-center py-10'>
               <img className='w-96 ml-28' src={bridge} alt="" />
               <h2 className='text-4xl md:text-6xl text-[#323638] font-black -mt-5'>Whats next for the <span className='text-primary'>Candle</span>?</h2>

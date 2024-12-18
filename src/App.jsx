@@ -8,6 +8,7 @@ import RecentBlocks from './sections/RecentBlocks'
 import ChosenSolution from './sections/ChosenSolution'
 import Transaction from './sections/Transaction'
 import WhatNextForCandle from './sections/WhatNextForCandle'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
