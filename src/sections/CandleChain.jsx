@@ -48,9 +48,9 @@ const CandleChain = () => {
             <h1 className="font-bold text-4xl">56419</h1>
             <p className="font-light">from first 171030 blocks</p>
 
-            <button className="absolute font-bold text-black w-full left-5 -bottom-10 flex items-center gap-2">
+            <button className="absolute group font-bold text-black w-full left-5 -bottom-10 flex items-center gap-2">
               Crawl Transactions{" "}
-              <img className="size-7" src={angleRight} alt="" />
+              <img className="size-7 duration-150 group-hover:translate-x-2" src={angleRight} alt="" />
             </button>
             <img
               className="absolute -bottom-14 -right-10 w-36"

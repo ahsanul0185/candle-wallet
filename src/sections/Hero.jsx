@@ -32,13 +32,13 @@ const Hero = () => {
       />
 
       <div className="section-width text-center">
-        <h2 className="text-4xl md:text-6xl pt-40 pb-10 font-bold font-lato leading-12 text-white text-center z-20">
+        <h2 className="text-4xl md:text-6xl pt-28 md:pt-40 pb-10 font-bold font-lato leading-12 text-white text-center z-20">
           A scaleable, efficent place <br />
           for developers to build <br />
           on web3.
         </h2>
 
-        <button className="px-12 md:px-28 py-2 md:py-5 bg-secondary duration-150 hover:bg-secondary/85 rounded-md text-2xl font-bold text-white cursor-pointer">
+        <button className="px-12 md:px-28 py-2 md:py-5 bg-secondary duration-150 hover:bg-secondary/85 rounded-md text-xl md:text-2xl font-bold text-white cursor-pointer">
           Let's Get Started
         </button>
 
