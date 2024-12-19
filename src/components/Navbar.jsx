@@ -6,17 +6,27 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-primary py-3 font-lato z-[999]">
+    <div className="fixed top-0 left-0 w-full bg-primary py-5 font-lato z-[999]">
       <div className="section-width flex justify-between items-center">
         <div className="flex items-center gap-6 lg:gap-12">
           <img className="size-10 md:size-14" src={logo} alt="" />
 
           <ul className="hidden md:flex text-white gap-3 lg:gap-5 text-base lg:text-lg">
-            <li className="cursor-pointer">Solution</li>
-            <li className="cursor-pointer">About</li>
-            <li className="cursor-pointer">Documentation</li>
-            <li className="cursor-pointer">Ecosystems</li>
-            <li className="cursor-pointer">Blogs</li>
+            <li className="cursor-pointer">
+              <a href="#">Solution</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#">About</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#">Documentation</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#">Ecosystems</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#">Blogs</a>
+            </li>
           </ul>
         </div>
 
@@ -46,11 +56,21 @@ const Navbar = () => {
             className="text-gray-800 mb-5 cursor-pointer"
           />
           <ul className="flex flex-col text-gray-800 gap-3 lg:gap-5 text-base lg:text-lg">
-            <li className="cursor-pointer hover:text-primary">Solution</li>
-            <li className="cursor-pointer hover:text-primary">About</li>
-            <li className="cursor-pointer hover:text-primary">Documentation</li>
-            <li className="cursor-pointer hover:text-primary">Ecosystems</li>
-            <li className="cursor-pointer hover:text-primary">Blogs</li>
+            <li className="cursor-pointer hover:text-primary">
+              <a href="#">Solution</a>
+            </li>
+            <li className="cursor-pointer hover:text-primary">
+              <a href="#">About</a>
+            </li>
+            <li className="cursor-pointer hover:text-primary">
+              <a href="#">Documentation</a>
+            </li>
+            <li className="cursor-pointer hover:text-primary">
+              <a href="#">Ecosystems</a>
+            </li>
+            <li className="cursor-pointer hover:text-primary">
+              <a href="#">Blogs</a>
+            </li>
           </ul>
           <hr className="my-6 border-gray-400" />
           <div className="flex flex-col text-base lg:text-lg items-start gap-5 lg:gap-10">

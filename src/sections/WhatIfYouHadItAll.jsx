@@ -10,7 +10,7 @@ import Benifit from "../components/Benifit";
 
 const WhatIfYouHadItAll = () => {
   return (
-    <div className="relative bg-light pt-10 pb-28">
+    <section className="relative bg-light pt-10 pb-28">
       {/* Assets */}
       <img
         className="absolute bottom-0 right-0 w-44 md:w-56"
@@ -71,7 +71,7 @@ const WhatIfYouHadItAll = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

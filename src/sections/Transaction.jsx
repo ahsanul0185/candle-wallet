@@ -9,7 +9,7 @@ import bottomCurve from "../assets/candle-wallet-bottom-curve.svg";
 
 const Transaction = () => {
   return (
-    <div className="bg-light overflow-x-clip">
+    <section className="bg-light overflow-x-clip">
       <div className="relative bg-primary z-0">
         <img className="w-full" src={topCurve} alt="" />
         {/* Assets */}
@@ -64,16 +64,16 @@ const Transaction = () => {
               <TransactionCard />
             </div>
           </div>
-          
+
           <div className="text-center pt-20">
-            <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary rounded-md text-xl md:text-2xl font-bold text-white cursor-pointer">
-              View More
-            </button>
+          <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary duration-150 hover:bg-secondary/85 rounded-md text-xl font-bold text-white cursor-pointer">
+          View More
+        </button>
           </div>
         </div>
       </div>
       <img className="w-full -z-20" src={bottomCurve} alt="" />
-    </div>
+    </section>
   );
 };
 

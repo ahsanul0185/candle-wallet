@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-primary relative z-0 overflow-clip">
+    <section className="bg-primary relative z-0 overflow-clip">
       <img className="w-full" src={topCurve} alt="" />
       <img
         className="absolute w-56 md:w-80 -right-20 bottom-36 rotate-12 -z-10 [mask-image:linear-gradient(to_top,_black,_transparent)]"
@@ -23,6 +23,7 @@ const Footer = () => {
       <div className="section-width py-10">
         <Newsletter />
 
+        {/* Top div */}
         <div className="flex flex-col md:flex-row gap-16 md:items-center mt-16 md:mt-8">
           <div className="text-white">
             <h2 className="text-3xl">EVM based scaling platform</h2>
@@ -36,39 +37,39 @@ const Footer = () => {
           <div>
             <h2 className="font-bold mb-5">SOLUTIONS</h2>
             <ul className="flex flex-col gap-2">
-              <li>Marketing</li>
-              <li>Analytics</li>
-              <li>Commerce</li>
-              <li>Insights</li>
+              <li><a className="hover:underline" href="#">Marketing</a></li>
+              <li><a className="hover:underline" href="#">Analytics</a></li>
+              <li><a className="hover:underline" href="#">Commerce</a></li>
+              <li><a className="hover:underline" href="#">Insights</a></li>
             </ul>
           </div>
 
           <div>
             <h2 className="font-bold mb-5">SUPPORT</h2>
             <ul className="flex flex-col gap-2">
-              <li>Pricing</li>
-              <li>Documentation</li>
-              <li>Guides</li>
-              <li>API Status</li>
+              <li><a className="hover:underline" href="#">Pricing</a></li>
+              <li><a className="hover:underline" href="#">Documentation</a></li>
+              <li><a className="hover:underline" href="#">Guides</a></li>
+              <li><a className="hover:underline" href="#">API Status</a></li>
             </ul>
           </div>
 
           <div>
             <h2 className="font-bold mb-5">COMPANY</h2>
             <ul className="flex flex-col gap-2">
-              <li>About</li>
-              <li>Blog</li>
-              <li>Jobs</li>
-              <li>Press</li>
-              <li>Partners</li>
+              <li><a className="hover:underline" href="#">About</a></li>
+              <li><a className="hover:underline" href="#">Blog</a></li>
+              <li><a className="hover:underline" href="#">Jobs</a></li>
+              <li><a className="hover:underline" href="#">Press</a></li>
+              <li><a className="hover:underline" href="#">Partners</a></li>
             </ul>
           </div>
 
           <div>
             <h2 className="font-bold mb-5">LEGAL</h2>
             <ul className="flex flex-col gap-2">
-              <li>Privacy</li>
-              <li>Terms</li>
+              <li><a className="hover:underline" href="#">Privacy</a></li>
+              <li><a className="hover:underline" href="#">Terms</a></li>
             </ul>
           </div>
         </div>
@@ -82,18 +83,18 @@ const Footer = () => {
           </p>
           <ul className="flex text-white gap-4">
             <li>
-              <RiInstagramLine />
+              <a href="#"><RiInstagramLine /></a>
             </li>
             <li>
-              <RiTwitterFill />
+              <a href="#"><RiTwitterFill /></a>
             </li>
             <li>
-              <RiGithubFill />
+              <a href="#"><RiGithubFill /></a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

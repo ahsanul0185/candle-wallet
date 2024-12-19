@@ -13,7 +13,7 @@ import icon_staking from "../assets/candle-wallet-section/staking.svg";
 
 const CandleWallet = () => {
   return (
-    <div className="bg-light">
+    <section className="bg-light">
       <div className="relative bg-primary z-0 overflow-x-clip">
         {/* Assets */}
         <img className="w-full" src={topCurve} alt="" />
@@ -44,10 +44,10 @@ const CandleWallet = () => {
             </div>
 
             <div>
-              <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary rounded-md text-xl md:text-2xl font-bold text-white cursor-pointer">
+              <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary duration-150 hover:bg-secondary/85 rounded-md text-xl md:text-2xl font-bold text-white cursor-pointer">
                 Access Wallet Here
               </button>
-              <p className="text-base md:text-xl font-thin text-white mt-3 md:text-center">
+              <p className="text-base md:text-xl font-thin text-white mt-3 md:text-center cursor-pointer">
                 Connect your preffered wallet here
               </p>
             </div>
@@ -85,7 +85,7 @@ const CandleWallet = () => {
         </div>
       </div>
       <img className="w-full -z-20" src={bottomCurve} alt="" />
-    </div>
+    </section>
   );
 };
 

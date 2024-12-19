@@ -3,7 +3,7 @@ import bridge from "../assets/bridge.png";
 
 const WhatNextForCandle = () => {
   return (
-    <div className="bg-light pb-10 overflow-clip">
+    <section className="bg-light pb-10 overflow-clip">
       <div className="section-width flex flex-col items-center py-10">
         <img className="w-96 ml-28" src={bridge} alt="" />
 
@@ -16,7 +16,7 @@ const WhatNextForCandle = () => {
           the platform in the coming months.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

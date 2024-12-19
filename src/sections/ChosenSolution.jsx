@@ -8,7 +8,7 @@ import logo_5 from "../assets/chosen_logo_5.svg";
 
 const ChosenSolution = () => {
   return (
-    <div className="bg-light">
+    <section className="bg-light">
       <div className="section-width">
         <hr className="border-t-2 border-[#D9D9D9]" />
         <div className="py-20">
@@ -32,7 +32,7 @@ const ChosenSolution = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

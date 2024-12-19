@@ -5,7 +5,7 @@ import zigzagBlue from "../assets/zigzag-blue-2.svg";
 
 const RecentBlocks = () => {
   return (
-    <div className="relative py-20  bg-light">
+    <section className="relative py-20  bg-light">
       {/* Assets */}
       <img
         className="absolute top-0 md:-top-8 right-0 w-20 sm:w-36 md:w-40"
@@ -30,11 +30,11 @@ const RecentBlocks = () => {
       </div>
 
       <div className="text-center pt-20">
-        <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary rounded-md text-xl md:text-2xl font-bold text-white cursor-pointer">
+        <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary duration-150 hover:bg-secondary/90 rounded-md text-xl font-bold text-white cursor-pointer">
           View More
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 
