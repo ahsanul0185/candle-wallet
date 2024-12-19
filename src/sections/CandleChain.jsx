@@ -7,8 +7,10 @@ const CandleChain = () => {
   return (
     <div className="bg-light pb-20 overflow-clip">
       <div className="section-width">
+        {/* Top text section */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 pb-6">
           <img className="size-64" src={img_cone} alt="" />
+
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#323638] pb-10">
             Candle chain is <br />
             one of the <span className="text-primary">best EVM</span> based{" "}
@@ -17,6 +19,7 @@ const CandleChain = () => {
           </h2>
         </div>
 
+        {/* Bottom Boxes */}
         <div className="flex justify-center items-center gap-5 flex-wrap">
           <div className="relative w-full sm:w-56 px-3 py-8 rounded-md bg-gradient-to-br from-[#20419A] to-[#2D59D0] text-white text-center">
             <h2 className="font-bold text-xl">Total Blocks</h2>
@@ -39,6 +42,7 @@ const CandleChain = () => {
               alt=""
             />
           </div>
+
           <div className="relative w-full sm:w-56 px-3 py-8 mb-10 sm:mb-0 rounded-md bg-gradient-to-br from-[#4BBBEB] to-[#74D5FF] text-white text-center">
             <h2 className="font-bold text-xl">Total Transaction</h2>
             <h1 className="font-bold text-4xl">56419</h1>
@@ -54,6 +58,7 @@ const CandleChain = () => {
               alt=""
             />
           </div>
+
           <div className="relative w-full sm:w-56 px-3 py-8 rounded-md bg-gradient-to-br from-[#FDC15C] to-[#EFD199] text-white text-center">
             <h2 className="font-bold text-xl">Gas Price</h2>
             <h1 className="font-bold text-4xl">0.00</h1>

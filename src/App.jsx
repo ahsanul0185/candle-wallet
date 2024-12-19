@@ -1,14 +1,14 @@
-import React from 'react'
-import Hero from './sections/Hero'
-import Navbar from './components/Navbar'
-import WhatIfYouHadItAll from './sections/WhatIfYouHadItAll'
-import CandleChain from './sections/CandleChain'
-import CandleWallet from './sections/CandleWallet'
-import RecentBlocks from './sections/RecentBlocks'
-import ChosenSolution from './sections/ChosenSolution'
-import Transaction from './sections/Transaction'
-import WhatNextForCandle from './sections/WhatNextForCandle'
-import Footer from './sections/Footer'
+import React from "react";
+import Hero from "./sections/Hero";
+import Navbar from "./components/Navbar";
+import WhatIfYouHadItAll from "./sections/WhatIfYouHadItAll";
+import CandleChain from "./sections/CandleChain";
+import CandleWallet from "./sections/CandleWallet";
+import RecentBlocks from "./sections/RecentBlocks";
+import ChosenSolution from "./sections/ChosenSolution";
+import Transaction from "./sections/Transaction";
+import WhatNextForCandle from "./sections/WhatNextForCandle";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
       <WhatNextForCandle />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

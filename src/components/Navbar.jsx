@@ -27,6 +27,7 @@ const Navbar = () => {
           </button>
         </div>
 
+        {/* menu button for mobile */}
         <button
           onClick={() => setShowNav(true)}
           className="md:hidden text-white text-xl"
@@ -35,7 +36,6 @@ const Navbar = () => {
         </button>
 
         {/* Mobile Menu */}
-
         <div
           className={`fixed bg-white top-0 right-0 h-full w-64 p-5 shadow-xl duration-300 ${
             showNav ? "translate-x-0" : "translate-x-full"

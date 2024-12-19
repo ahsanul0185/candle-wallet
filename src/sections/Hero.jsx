@@ -9,12 +9,27 @@ import zigzag from "../assets/zigzag.svg";
 
 const Hero = () => {
   return (
-      <div className="relative pt-40 bg-primary overflow-clip z-0">
-          
-          <img className="absolute top-32 w-36 md:w-fit right-1/3 scale-90" src={ pentagon } alt="" />
-          <img className="absolute top-60 md:top-52 w-52 md:w-fit -right-10 scale-75 -z-10" src={ pentagon2 } alt="" />
-          <img className="absolute top-28 w-28 md:w-fit right-3 md:right-24 scale-75" src={ flag } alt="" />
-          <img className="absolute w-44 lg:w-80 bottom-20 sm:bottom-28 lg:bottom-44 right-12" src={ zigzag } alt="" />
+    <div className="relative pt-40 bg-primary overflow-clip z-0">
+      <img
+        className="absolute top-32 w-36 md:w-fit right-1/3 scale-90"
+        src={pentagon}
+        alt=""
+      />
+      <img
+        className="absolute top-60 md:top-52 w-52 md:w-fit -right-10 scale-75 -z-10"
+        src={pentagon2}
+        alt=""
+      />
+      <img
+        className="absolute top-28 w-28 md:w-fit right-3 md:right-24 scale-75"
+        src={flag}
+        alt=""
+      />
+      <img
+        className="absolute w-44 lg:w-80 bottom-20 sm:bottom-28 lg:bottom-44 right-12"
+        src={zigzag}
+        alt=""
+      />
 
       <div className="section-width text-center">
         <h2 className="text-4xl md:text-6xl pt-40 pb-10 font-bold font-lato leading-12 text-white text-center z-20">

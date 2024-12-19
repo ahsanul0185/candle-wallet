@@ -12,6 +12,7 @@ const Transaction = () => {
     <div className="bg-light overflow-x-clip">
       <div className="relative bg-primary z-0">
         <img className="w-full" src={topCurve} alt="" />
+        {/* Assets */}
         <img
           className="absolute w-24 right-0 md:right-20 top-56 rotate-45 [mask-image:linear-gradient(to_top,_black,_transparent)]"
           src={pentagon}
@@ -44,13 +45,14 @@ const Transaction = () => {
         />
 
         <div className="section-width py-20">
+          {/* Section title text */}
           <div className="text-center text-white">
             <h2 className="text-4xl">Check out our recent</h2>
             <h2 className="text-5xl font-bold mt-5">Transactions</h2>
           </div>
 
+          {/* Transaction Cards */}
           <div className="pt-10 md:pt-20 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 z-10">
-            {/* Card */}
             <div className="flex flex-col gap-10 md:gap-20">
               <TransactionCard />
               <TransactionCard />
@@ -62,6 +64,7 @@ const Transaction = () => {
               <TransactionCard />
             </div>
           </div>
+          
           <div className="text-center pt-20">
             <button className="px-12 md:px-16 py-2 md:py-4 bg-secondary rounded-md text-xl md:text-2xl font-bold text-white cursor-pointer">
               View More

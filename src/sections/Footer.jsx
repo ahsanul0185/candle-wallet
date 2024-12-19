@@ -3,7 +3,13 @@ import zigzag from "../assets/zigzag-yellow-small.svg";
 import pentagon from "../assets/pentagon.svg";
 import topCurve from "../assets/candle-wallet-top-curve.svg";
 import Newsletter from "../components/Newsletter";
-import { RiGithubFill, RiGithubLine, RiInstagramLine, RiTwitterFill, RiTwitterLine } from "@remixicon/react";
+import {
+  RiGithubFill,
+  RiGithubLine,
+  RiInstagramLine,
+  RiTwitterFill,
+  RiTwitterLine,
+} from "@remixicon/react";
 
 const Footer = () => {
   return (
@@ -25,6 +31,7 @@ const Footer = () => {
           <img className="-mt-16 md:-mt-0 w-56" src={zigzag} alt="" />
         </div>
 
+        {/* Footer columns */}
         <div className="text-white text-xl grid grid-cols-2 gap-10 md:grid-cols-4 w-[90%] mt-5">
           <div>
             <h2 className="font-bold mb-5">SOLUTIONS</h2>
@@ -66,14 +73,23 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="mt-10 mb-5"/>
+        <hr className="mt-10 mb-5" />
 
+        {/* Copyright text */}
         <div className="flex  flex-col md:flex-row items-center gap-5 justify-between">
-          <p className="text-white text-xl">© 2022 Candle Labs, Inc. All rights reserved.</p>
+          <p className="text-white text-xl">
+            © 2022 Candle Labs, Inc. All rights reserved.
+          </p>
           <ul className="flex text-white gap-4">
-            <li><RiInstagramLine /></li>
-            <li><RiTwitterFill /></li>
-            <li><RiGithubFill /></li>
+            <li>
+              <RiInstagramLine />
+            </li>
+            <li>
+              <RiTwitterFill />
+            </li>
+            <li>
+              <RiGithubFill />
+            </li>
           </ul>
         </div>
       </div>
