@@ -26,17 +26,17 @@ const Footer = () => {
         {/* Top div */}
         <div className="flex flex-col md:flex-row gap-16 md:items-center mt-16 md:mt-8">
           <div className="text-white">
-            <h2 className="text-3xl">EVM based scaling platform</h2>
-            <h1 className="text-5xl font-bold">Candle Chain</h1>
+            <h2 className="text-2xl md:text-3xl">EVM based scaling platform</h2>
+            <h1 className="text-3xl md:text-5xl font-bold">Candle Chain</h1>
           </div>
-          <img className="-mt-16 md:-mt-0 w-56" src={zigzag} alt="" />
+          <img className="-mt-16 md:-mt-0 w-40 md:w-56" src={zigzag} alt="" />
         </div>
 
         {/* Footer columns */}
-        <div className="text-white text-xl grid grid-cols-2 gap-10 md:grid-cols-4 w-[90%] mt-5">
+        <div className="text-white md:text-xl grid grid-cols-2 gap-10 md:grid-cols-4 w-[90%] mt-5">
           <div>
-            <h2 className="font-bold mb-5">SOLUTIONS</h2>
-            <ul className="flex flex-col gap-2">
+            <h2 className="font-bold mb-2 md:mb-5">SOLUTIONS</h2>
+            <ul className="flex flex-col gap-1 md:gap-2">
               <li><a className="hover:underline" href="#">Marketing</a></li>
               <li><a className="hover:underline" href="#">Analytics</a></li>
               <li><a className="hover:underline" href="#">Commerce</a></li>
@@ -45,8 +45,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="font-bold mb-5">SUPPORT</h2>
-            <ul className="flex flex-col gap-2">
+            <h2 className="font-bold mb-2 md:mb-5">SUPPORT</h2>
+            <ul className="flex flex-col gap-1 md:gap-2">
               <li><a className="hover:underline" href="#">Pricing</a></li>
               <li><a className="hover:underline" href="#">Documentation</a></li>
               <li><a className="hover:underline" href="#">Guides</a></li>
@@ -55,8 +55,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="font-bold mb-5">COMPANY</h2>
-            <ul className="flex flex-col gap-2">
+            <h2 className="font-bold mb-2 md:mb-5">COMPANY</h2>
+            <ul className="flex flex-col gap-1 md:gap-2">
               <li><a className="hover:underline" href="#">About</a></li>
               <li><a className="hover:underline" href="#">Blog</a></li>
               <li><a className="hover:underline" href="#">Jobs</a></li>
@@ -66,8 +66,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="font-bold mb-5">LEGAL</h2>
-            <ul className="flex flex-col gap-2">
+            <h2 className="font-bold mb-2 md:mb-5">LEGAL</h2>
+            <ul className="flex flex-col gap-1 md:gap-2">
               <li><a className="hover:underline" href="#">Privacy</a></li>
               <li><a className="hover:underline" href="#">Terms</a></li>
             </ul>
@@ -78,7 +78,7 @@ const Footer = () => {
 
         {/* Copyright text */}
         <div className="flex  flex-col md:flex-row items-center gap-5 justify-between">
-          <p className="text-white text-xl">
+          <p className="text-white md:text-xl">
             © 2022 Candle Labs, Inc. All rights reserved.
           </p>
           <ul className="flex text-white gap-4">

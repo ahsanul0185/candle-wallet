@@ -30,21 +30,21 @@ const TransactionCard = () => {
       <hr className="my-4" />
 
       {/* Bottom boxes */}
-      <div className="flex gap-3">
-        <div className="bg-[#4A8CCD] rounded-md px-2 py-5 w-full text-center">
+      <div className="flex gap-3 text-sm md:text-base">
+        <div className="bg-[#4A8CCD] rounded-md px-2 py-2 md:py-5 w-full text-center">
           <p className="font-bold">Block</p>
           <p>#28461</p>
           <p>(0x6f2d)</p>
         </div>
 
-        <div className="bg-[#4A8CCD] rounded-md px-2 py-5 w-full text-center">
+        <div className="bg-[#4A8CCD] rounded-md px-2 py-2 md:py-5 w-full text-center">
           <p className="font-bold">
             Gas <br /> Used
           </p>
           <p>21000</p>
         </div>
 
-        <div className="bg-[#4A8CCD] rounded-md px-2 py-5 w-full text-center">
+        <div className="bg-[#4A8CCD] rounded-md px-2 py-2 md:py-5 w-full text-center">
           <p className="font-bold">Gas Price</p>
           <p>0.00001</p>
           <p>Gwei</p>
