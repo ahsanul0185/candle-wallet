@@ -16,7 +16,7 @@ const CandleWallet = () => {
     <section className="bg-light">
       <div className="relative bg-primary z-0 overflow-x-clip">
         {/* Assets */}
-        <img className="w-full" src={topCurve} alt="" />
+        <img className="w-full select-none" draggable={false } src={topCurve} alt="" />
         <img
           className="absolute top-96 md:top-80 -right-10 rotate-[55deg] w-60 md:w-80 -z-10 [mask-image:linear-gradient(to_top,_black,_transparent)]"
           src={pentagon}
@@ -84,7 +84,7 @@ const CandleWallet = () => {
           </div>
         </div>
       </div>
-      <img className="w-full -z-20" src={bottomCurve} alt="" />
+      <img className="w-full -z-20 select-none" draggable={false } src={bottomCurve} alt="" />
     </section>
   );
 };

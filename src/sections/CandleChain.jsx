@@ -50,7 +50,11 @@ const CandleChain = () => {
 
             <button className="absolute group font-bold text-black w-full left-5 -bottom-10 flex items-center gap-2">
               Crawl Transactions{" "}
-              <img className="size-7 duration-150 group-hover:translate-x-2" src={angleRight} alt="" />
+              <img
+                className="size-7 duration-150 group-hover:translate-x-2"
+                src={angleRight}
+                alt=""
+              />
             </button>
             <img
               className="absolute -bottom-14 -right-10 w-36"

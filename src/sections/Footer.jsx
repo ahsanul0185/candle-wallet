@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   return (
     <section className="bg-primary relative z-0 overflow-clip">
-      <img className="w-full" src={topCurve} alt="" />
+      <img className="w-full select-none" draggable={false } src={topCurve} alt="" />
       <img
         className="absolute w-56 md:w-80 -right-20 bottom-36 rotate-12 -z-10 [mask-image:linear-gradient(to_top,_black,_transparent)]"
         src={pentagon}

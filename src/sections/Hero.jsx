@@ -9,6 +9,7 @@ import zigzag from "../assets/zigzag.svg";
 
 const Hero = () => {
   return (
+    <>
     <section className="relative pt-40 bg-primary overflow-clip z-0">
       <img
         className="absolute top-32 w-36 md:w-fit right-1/3 scale-90"
@@ -26,7 +27,7 @@ const Hero = () => {
         alt=""
       />
       <img
-        className="absolute w-44 lg:w-80 bottom-20 sm:bottom-28 lg:bottom-44 right-12"
+        className="absolute w-44 lg:w-80 -bottom-5 sm:-bottom-10 lg:-bottom-8 right-12 z-10"
         src={zigzag}
         alt=""
       />
@@ -65,8 +66,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <img className="w-full select-none" src={bottomCurve} alt="" />
     </section>
+      <img className="w-full -mt-1 select-none" draggable={ false } src={bottomCurve} alt="" />
+      </>
   );
 };
 

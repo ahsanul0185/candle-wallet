@@ -11,7 +11,7 @@ const Transaction = () => {
   return (
     <section className="bg-light overflow-x-clip">
       <div className="relative bg-primary z-0">
-        <img className="w-full" src={topCurve} alt="" />
+        <img className="w-full select-none" draggable={false } src={topCurve} alt="" />
         {/* Assets */}
         <img
           className="absolute w-24 right-0 md:right-20 top-56 rotate-45 [mask-image:linear-gradient(to_top,_black,_transparent)]"
@@ -72,7 +72,7 @@ const Transaction = () => {
           </div>
         </div>
       </div>
-      <img className="w-full -z-20" src={bottomCurve} alt="" />
+      <img className="w-full -z-20 select-none" draggable={false } src={bottomCurve} alt="" />
     </section>
   );
 };
